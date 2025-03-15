@@ -7,7 +7,7 @@ public class leecode {
 
     public static int test6(){
         Random r = new Random();
-        int n = r.nextInt(10S);
+        int n = r.nextInt(10);
     }
 
     public static boolean zhishu(int x){
