@@ -1,5 +1,6 @@
 package com.liqiang.test.Interface;
 
+
 public class Boy implements Person ,male{
     private String name;
     private int age;

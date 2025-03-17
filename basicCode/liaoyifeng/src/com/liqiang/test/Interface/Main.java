@@ -1,5 +1,7 @@
 package com.liqiang.test.Interface;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 /**
  * Learn Java from https://www.liaoxuefeng.com/
  * 
@@ -18,6 +20,11 @@ public class Main {
 //		System.out.println(total);
 
 //		Math m = new Math();
+
+		Person b = new Boy();
+		male m = (male) b;
+		b.run();
+		m.jump();
 
 	}
 
